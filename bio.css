@@ -1,0 +1,22 @@
+main h1{
+	font-size: 60px;
+	background-color: rgb(120, 30,60);
+	color: rgb(250, 255, 250);
+	text-align: center;
+	font-family: "Open Sans Condensed", Sans-serif;
+	}
+
+h2{
+	font-size: 40px;
+	font-family: "Open Sans Condensed", Sans-serif;
+	}
+
+body{
+	font-size: 20px;
+	font-family: "Crimson Text";
+	background-color: #F2FFFC;
+	}
+
+p{
+	text-align: justify;
+	}
