@@ -1,7 +1,7 @@
 main h1{
 	font-size: 60px;
-	background-color: rgb(120, 30,60);
-	color: rgb(250, 255, 250);
+	background-color: #851944;
+	color: #FFF;
 	text-align: center;
 	font-family: "Open Sans Condensed", Sans-serif;
 	}
@@ -13,10 +13,38 @@ h2{
 
 body{
 	font-size: 20px;
-	font-family: "Crimson Text";
+	font-family: "Crimson Text", "Times New Roman", Sans-serif;
 	background-color: #F2FFFC;
 	}
 
 p{
 	text-align: justify;
 	}
+
+h1, h2{
+	font-family: "Open Sans Condensed", "Arial", Sans-serif;
+	}
+
+blockquote{
+	background-color: #D9E5E3;
+	}
+
+aside {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+footer{
+	background-color: #000;
+	color: #F2FFFC;	
+}
+nav a {
+	color: #F2FFFC;
+}
+
+ul{
+	color: pink;
+}
+ul li a {
+	color: inherit;
+}
