@@ -4,10 +4,12 @@ main h1{
 	color: #FFF;
 	text-align: center;
 	font-family: "Open Sans Condensed", Sans-serif;
+	padding: 24px; 
+	border-bottom: 10px solid black;
 	}
 
 h2{
-	font-size: 40px;
+	font-size: 30px;
 	font-family: "Open Sans Condensed", Sans-serif;
 	}
 
@@ -19,21 +21,34 @@ body{
 
 p{
 	text-align: justify;
+	margin: 20px 0;
 	}
 
 h1, h2{
 	font-family: "Open Sans Condensed", "Arial", Sans-serif;
 	}
 
-blockquote{
+blockquote, aside, footer{
 	background-color: #D9E5E3;
+	padding: 16px; 
+	margin: 20px 40px; 
+	border: 10px solid #C2CCCA; 
+	width: 250px;
+	box-sizing: border-box;
+	border-bottom-color: #333;
+	border-right-color: #FFF;
 	}
-
+	
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	text-align: center;
 }
 
+aside h1{
+	font-size: 30px;
+	margin-bottom: 25px;
+}
 footer{
 	background-color: #000;
 	color: #F2FFFC;	
@@ -48,3 +63,28 @@ ul{
 ul li a {
 	color: inherit;
 }
+main div{
+	width: 720px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 0;
+} 
+
+strong{
+	font-weight: bold;
+}
+
+em{
+	font-style: italic;
+}
+
+
+
+padding espaçamento dentro da caixa,
+	border borda da caixa,
+	margin margem da citação,
+	width largura da caixa,
+	box model modelo da caixa box sizing define que a largura seja definida pelas bordas
+
+	centralizando todo o conteudo
+
