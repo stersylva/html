@@ -6,6 +6,7 @@ main h1{
 	font-family: "Open Sans Condensed", Sans-serif;
 	padding: 24px; 
 	border-bottom: 10px solid black;
+	text-transform: uppercase;
 	}
 
 h2{
@@ -38,6 +39,10 @@ blockquote, aside, footer{
 	border-bottom-color: #333;
 	border-right-color: #FFF;
 	}
+
+.link footer{
+	background-color: #fffff
+}
 	
 aside {
 	background-color: #3C1D3D;
@@ -45,16 +50,19 @@ aside {
 	text-align: center;
 }
 
+
 aside h1{
 	font-size: 30px;
 	margin-bottom: 25px;
 }
-footer{
+.rodape footer{
 	background-color: #000;
 	color: #F2FFFC;	
+	padding: 20px;
 }
 nav a {
 	color: #F2FFFC;
+	text-transform: lowercase;
 }
 
 ul{
@@ -76,6 +84,48 @@ strong{
 
 em{
 	font-style: italic;
+}
+
+article{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+.navegacao-site{
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	padding: 20px;
+	text-align: center;
+}
+.leia-mais{
+	padding: 8px;
+	margin: 16px;
+	display: block;
+	font-size: 24px;
+	text-align: center;
+	background-color: #E6E7E8;
+}
+.pagina-inicial{
+	font-size: 60px;
+}
+.cabecalho-principal{
+	color: white;
+	background-color: purple;
+}
+.icones-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	text-indent: -9999px;
+}
+.github{
+	background-image: url(github.png);
+}
+.twitter{
+	background-image: url(twitter.png);
+}
+.linkedin{
+	background-image: url(linkedin.png);
 }
 
 
